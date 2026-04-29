@@ -46,7 +46,7 @@ SELECT * FROM dbo.FinancialTasks;
 -- PRACTICAL ASSESSMENT QUESTIONS AND FORMULAS:
 
 --   1.  Simple Interest: I = P * r * t
-   select ROUND( SUM(principal * AnnualRate * TermYears), 2) AS 'Simple Interest'
+   select ROUND(principal * AnnualRate * TermYears, 2) AS Simple_Interest
    FROM dbo.FinancialTasks
    where TaskID = 1;
    
